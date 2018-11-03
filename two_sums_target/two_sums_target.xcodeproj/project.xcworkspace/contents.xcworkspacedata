@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:python_algorithm.xcodeproj">
+      location = "self:two_sums_target.xcodeproj">
    </FileRef>
 </Workspace>

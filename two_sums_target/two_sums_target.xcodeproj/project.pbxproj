@@ -6,68 +6,61 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXFileReference section */
-		3E996490218D2ECA006DDDF7 /* two_sum.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = two_sum.py; sourceTree = "<group>"; };
-		3EC990F2218D49B900D29DE3 /* add_two_numbers.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = add_two_numbers.py; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
 /* Begin PBXGroup section */
-		3E996485218D2BE8006DDDF7 = {
+		3E18C7AD218D35D40043A540 = {
 			isa = PBXGroup;
 			children = (
-				3E996490218D2ECA006DDDF7 /* two_sum.py */,
-				3EC990F2218D49B900D29DE3 /* add_two_numbers.py */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		3E99648A218D2BE8006DDDF7 /* python_algorithm */ = {
+		3E18C7B2218D35D40043A540 /* two_sums_target */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = 3E99648D218D2BE8006DDDF7 /* Build configuration list for PBXLegacyTarget "python_algorithm" */;
+			buildConfigurationList = 3E18C7B5218D35D40043A540 /* Build configuration list for PBXLegacyTarget "two_sums_target" */;
 			buildPhases = (
 			);
 			buildToolPath = /Library/Frameworks/Python.framework/Versions/3.7/bin/python3;
 			dependencies = (
 			);
-			name = python_algorithm;
+			name = two_sums_target;
 			passBuildSettingsInEnvironment = 1;
-			productName = python_algorithm;
+			productName = two_sums_target;
 		};
 /* End PBXLegacyTarget section */
 
 /* Begin PBXProject section */
-		3E996486218D2BE8006DDDF7 /* Project object */ = {
+		3E18C7AE218D35D40043A540 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "software engineer";
 				TargetAttributes = {
-					3E99648A218D2BE8006DDDF7 = {
+					3E18C7B2218D35D40043A540 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 3E996489218D2BE8006DDDF7 /* Build configuration list for PBXProject "python_algorithm" */;
+			buildConfigurationList = 3E18C7B1218D35D40043A540 /* Build configuration list for PBXProject "two_sums_target" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3E996485218D2BE8006DDDF7;
+			mainGroup = 3E18C7AD218D35D40043A540;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E99648A218D2BE8006DDDF7 /* python_algorithm */,
+				3E18C7B2218D35D40043A540 /* two_sums_target */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		3E99648B218D2BE8006DDDF7 /* Debug */ = {
+		3E18C7B3218D35D40043A540 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -123,7 +116,7 @@
 			};
 			name = Debug;
 		};
-		3E99648C218D2BE8006DDDF7 /* Release */ = {
+		3E18C7B4218D35D40043A540 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -172,7 +165,7 @@
 			};
 			name = Release;
 		};
-		3E99648E218D2BE8006DDDF7 /* Debug */ = {
+		3E18C7B6218D35D40043A540 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -186,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		3E99648F218D2BE8006DDDF7 /* Release */ = {
+		3E18C7B7218D35D40043A540 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -200,25 +193,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E996489218D2BE8006DDDF7 /* Build configuration list for PBXProject "python_algorithm" */ = {
+		3E18C7B1218D35D40043A540 /* Build configuration list for PBXProject "two_sums_target" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E99648B218D2BE8006DDDF7 /* Debug */,
-				3E99648C218D2BE8006DDDF7 /* Release */,
+				3E18C7B3218D35D40043A540 /* Debug */,
+				3E18C7B4218D35D40043A540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E99648D218D2BE8006DDDF7 /* Build configuration list for PBXLegacyTarget "python_algorithm" */ = {
+		3E18C7B5218D35D40043A540 /* Build configuration list for PBXLegacyTarget "two_sums_target" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E99648E218D2BE8006DDDF7 /* Debug */,
-				3E99648F218D2BE8006DDDF7 /* Release */,
+				3E18C7B6218D35D40043A540 /* Debug */,
+				3E18C7B7218D35D40043A540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3E996486218D2BE8006DDDF7 /* Project object */;
+	rootObject = 3E18C7AE218D35D40043A540 /* Project object */;
 }
