@@ -6,10 +6,17 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		3E996490218D2ECA006DDDF7 /* two_sum.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = two_sum.py; sourceTree = "<group>"; };
+		3EC990F2218D49B900D29DE3 /* add_two_numbers.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = add_two_numbers.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		3E996485218D2BE8006DDDF7 = {
 			isa = PBXGroup;
 			children = (
+				3E996490218D2ECA006DDDF7 /* two_sum.py */,
+				3EC990F2218D49B900D29DE3 /* add_two_numbers.py */,
 			);
 			sourceTree = "<group>";
 		};
