@@ -20,3 +20,4 @@ class Solution(object):
 print(str(Solution.isLongPressedName(Solution, "alex", "aaaaallllllexxxxxxx")))
 print(str(Solution.isLongPressedName(Solution,"abc","abcd")))
 print(str(Solution.isLongPressedName(Solution,"abcde","abcd")))
+print(str(Solution.isLongPressedName(Solution,"laex","aaleex")))
